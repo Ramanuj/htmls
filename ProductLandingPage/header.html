@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Factory</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+    <header>
+        <div id="header-slab">
+            <div id="header-logo">
+                <img src="logo.png" alt="logo"/>
+            </div>
+            <div id="header-title">Food Factory</div>
+            <div id="header-login-area">
+                <span id="header-login-text">Login</span>
+                <span id="header-profile">
+                    <img src="profile.png" alt="logo"/>
+                </span>
+                <span id="header-cart">
+                        <img src="cart.png" alt="cart"/>
+                </span>
+            </div>
+        </div>
+        
+        <nav class="header-nav-flex-style">
+            <ul class="header-nav-links">
+                <li class="headerLinks">Home</li>
+                <li class="headerLinks menu-link">Menu</li>
+                <li class="headerLinks">Orders</li>
+                <li class="headerLinks">Admin</li>
+                <li class="headerLinks">Contact Us</li>
+                <li class="headerLinks">About Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="menu-container">
+        <ul id="menu-links">
+            <li id="menu-link">Link1</li>
+            <li id="menu-link">Link2</li>
+            <li id="menu-link">Link3</li>
+            <li id="menu-link">Link4</li>
+            <li id="menu-link">Link5</li>
+        </ul>
+    </div>
+
+    <div id="login-panel">
+        <div class="login-page">
+            <div class="form">
+                <form class="register-form">
+                    <input type="text" placeholder="name"/>
+                    <input type="password" placeholder="password"/>
+                    <input type="text" placeholder="email address"/>
+                    <button>create</button>
+                    <p class="message">Already registered? <a href="#">Sign In</a></p>
+                </form>
+                <form class="login-form">
+                    <input type="text" placeholder="username"/>
+                    <input type="password" placeholder="password"/>
+                    <button>login</button>
+                    <p class="message">Not registered? <a href="#">Create an account</a></p>
+                </form>
+            </div>   
+        </div>
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="header.js"></script>
+</body>
+</html>
