@@ -3,8 +3,8 @@
     width: 500px;
     background-color: slategray;
     position: absolute;
-    top: 60px;
-    right: 183px;
+    top: 4.5em;
+    right: 8em;
     z-index: 9000;
     border-radius: 5px; 
 }
@@ -43,7 +43,7 @@
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background: #4CAF50;
+    background: #6495ED;
     width: 100%;
     border: 0;
     padding: 15px;
@@ -55,7 +55,7 @@
 }
 
 .form button:hover,.form button:active,.form button:focus {
-    background: #43A047;
+    background: #3676e8;
 }
 
 .form .message {
@@ -65,7 +65,7 @@
 }
 
 .form .message a {
-    color: #4CAF50;
+    color: #6495ED;
     text-decoration: none;
 }
 

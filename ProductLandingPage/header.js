@@ -1,10 +1,10 @@
 $( document ).ready(function() {
     console.log("ready!");
 
-    $(".menu-container").hide();
+    
     $("#login-panel").hide();
 
-    $(".menu-link").mouseenter(function() {
+    /*$(".menu-link").mouseenter(function() {
         console.log("hovered");
         $(".menu-container").show();
     });
@@ -12,7 +12,7 @@ $( document ).ready(function() {
     $(".menu-container").mouseleave(function() {
         console.log("hovered out");
         $(".menu-container").hide();
-    });
+    });*/
 
     $('.message a').click(function(){
         $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
