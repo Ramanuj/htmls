@@ -2,13 +2,13 @@
     position: relative;
 }
 
-#headerLinks a {
+#headerLinks > a {
     display: block;
 }
 
-.headerLinks ul {
+.headerLinks > ul {
     position: absolute;
-    display: none;
+    display: none; /* THis needs to be changed to none */
     list-style: none;
     float: left;
     text-align: left;
@@ -19,14 +19,58 @@
     border-radius: 0px 0px 5px 5px;
 }
 
-.headerLinks:hover ul {
+.headerLinks:hover > ul {
     display: block;
 }
 
-#menu-link {
+.menu-link {
     padding: 10px 10px;
 }
 
-#menu-link:hover {
-    background-color: #85929E;
+.menu-link:hover {
+    background-color: cornflowerblue;
+}
+
+/* Sub Menu */
+
+/* link that opens the menu */
+.menu-link {
+    position: relative;
+}
+
+.menu-link span {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* special for submenu enabled links */
+.submenu-enabled {
+
+}
+
+.submenu-links {
+    position: absolute;
+    display: none; /* THis needs to be changed to none */
+    list-style: none;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    margin: 11px 28px;
+    background-color: lightslategray;
+    width: 180px;
+    border-radius: 0px 5px 5px 0px;
+    left: 85%;
+    top: -5px;
+}
+
+.menu-link:hover > ul {
+    display: block;
+}
+
+.submenu-link {
+    padding: 10px 10px;
+}
+
+.submenu-link:hover {
+    background-color:cornflowerblue;
 }
