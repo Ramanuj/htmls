@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="menu.css">
+    <link rel="icon" href="logo.png" type="image/x-icon" />
 </head>
 <body>
 
@@ -40,11 +41,42 @@
                 <li class="headerLinks">
                     <a href="">Menu/Online Order</a>
                     <ul id="menu-links">
-                        <li id="menu-link">Soups</li>
-                        <li id="menu-link">Appetizers</li>
-                        <li id="menu-link">Lunch</li>
-                        <li id="menu-link">Dinner</li>
-                        <li id="menu-link">Beverages</li>
+                        <li class="menu-link">
+                            <a href="">Soups</a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="">Appetizers</a>
+                        </li>
+                        <li class="menu-link submenu-enabled">
+                            <a href="">Lunch</a>
+                            <span>></span>
+                            <ul class="submenu-links">
+                                <li class="menu-link submenu-link">
+                                    <a href="">Biryani</a>
+                                    <span>></span>
+                                    <ul class="submenu-links">
+                                        <li class="submenu-link">
+                                            <a href="">Hyderabadi</a>
+                                        </li>
+                                        <li class="submenu-link">
+                                            <a href="">Avadhi</a>
+                                        </li>
+                                        <li class="submenu-link">
+                                            <a href="">Konkani</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu-link">
+                                    <a href="">Curries</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-link">
+                            <a href="">Dinner</a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="">Beverages</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="headerLinks">
@@ -65,16 +97,6 @@
             </ul>
         </nav>
     </header>
-
-    <!--<div id="menu" class="menu-container">
-        <ul id="menu-links">
-            <li id="menu-link">Soups</li>
-            <li id="menu-link">Appetizers</li>
-            <li id="menu-link">Lunch</li>
-            <li id="menu-link">Dinner</li>
-            <li id="menu-link">Beverages</li>
-        </ul>
-    </div>-->
 
     <div id="login-panel">
         <div class="login-page">
